@@ -74,6 +74,7 @@ print("kasmvnc.yml created successfully.")
 
 xstartup = f"""
 #!/bin/bash
+
 """
 with open(os.path.join(vnc_directory, 'xstartup'), 'w') as f:
 		f.write(xstartup)
