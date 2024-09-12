@@ -21,7 +21,7 @@ with open(de_was_selected,"w") as f: f.write("")
 
 VNC_PW = os.environ.get('VNC_PW')
 VNC_USER = os.environ.get('VNC_USER')
-VNC_PORT = os.environ.get('VNC_PORT')
+VNC_PORT = 6080
 
 # Generate the hashed password
 salt = '$5$kasm$'  # Use this salt for SHA-256 hashing
