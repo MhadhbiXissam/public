@@ -74,10 +74,7 @@ install() {
     fi
 
     # Install Nim from desired channel.
-    "$temp_prefix/$filename" $CHOOSE_VERSION --firstInstall ${debug} < /dev/tty
-  else
-    "$temp_prefix/$filename" $CHOOSE_VERSION --firstInstall -y ${debug}
-  fi
+
 
   # Copy choosenim binary to Nimble bin.
   local nimbleBinDir=`"$temp_prefix/$filename" --getNimbleBin`
