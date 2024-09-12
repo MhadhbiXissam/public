@@ -1,4 +1,6 @@
 NIM_VERSION=1.0.8
+rm -rf /opt/nim || true 
+rm -rf $HOME/.nimble || true 
 wget "https://nim-lang.org/download/nim-$NIM_VERSION-linux_x64.tar.xz" -O /tmp/nim-$NIM_VERSION-linux_x64.tar.xz
 cd /tmp/ && tar -xf nim-$NIM_VERSION-linux_x64.tar.xz
 cd /tmp/nim-$NIM_VERSION && bash build.sh
