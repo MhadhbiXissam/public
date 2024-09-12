@@ -15,7 +15,7 @@ temp_prefix="${TMPDIR:-/tmp}"
 
 CHOOSE_VERSION="${CHOOSENIM_CHOOSE_VERSION:-stable}"
 
-need_tty=no
+need_tty="no"
 debug="--debug"
 
 has_curl() {
