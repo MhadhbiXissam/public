@@ -4,6 +4,6 @@ cd /tmp/ && tar -xf nim-$NIM_VERSION-linux_x64.tar.xz
 cd /tmp/nim-$NIM_VERSION && bash build.sh
 cd /tmp/nim-$NIM_VERSION && bash install.sh /opt
 mkdir /opt/nimble/bin || true 
-cp  /tmp/nim-$NIM_VERSION/bin/nimble /opt/nimble/bin/nimble
+cp  /tmp/nim-$NIM_VERSION/bin/* /opt/nimble/bin/*
 cd /tmp && rm -rf /tmp/nim-$NIM_VERSION
 cd /tmp && rm nim-$NIM_VERSION-linux_x64.tar.xz
