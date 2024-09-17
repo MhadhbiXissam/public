@@ -1,4 +1,4 @@
-apt install -y wget libgbm1 libgl1 libpixman-1-0 libunwind8 libxcursor1 libxfixes3 libxfont2 libxrandr2 libxshmfence1 libxtst6 x11-xkb-utils xkb-data
+apt install -y x11-apps wget libgomp1 libgbm1 libgl1 libpixman-1-0 libunwind8 libxcursor1 libxfixes3 libxfont2 libxrandr2 libxshmfence1 libxtst6 x11-xkb-utils xkb-data
 wget http://ftp.de.debian.org/debian/pool/main/libw/libwebp/libwebp7_1.2.4-0.2+deb12u1_amd64.deb 
 dpkg -i libwebp7_1.2.4-0.2+deb12u1_amd64.deb 
 apt-get install -f && rm libwebp7_1.2.4-0.2+deb12u1_amd64.deb  
