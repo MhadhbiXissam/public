@@ -1,6 +1,6 @@
 
 apt update 
-apt install -y xfce4 xfce4-goodies  dbus-x11 x11-xserver-utils
+apt install -y xfce4 xfce4-goodies  dbus-x11 x11-xserver-utils  libopenal-dev
 mkdir -p /root/.themes || true 
 wget https://raw.githubusercontent.com/vinceliuice/WhiteSur-gtk-theme/refs/heads/master/release/WhiteSur-Dark-solid-nord.tar.xz  -O /root/.themes/WhiteSur-Dark-solid-nord.tar.xz && cd  /root/.themes && tar -xf WhiteSur-Dark-solid-nord.tar.xz && rm WhiteSur-Dark-solid-nord.tar.xz
 mkdir -p /root/.config/autostart
