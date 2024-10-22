@@ -68,6 +68,18 @@ X-XFCE-Source=file:///usr/share/applications/xfce4-terminal.desktop
 [Desktop Action preferences]
 Name=Terminal Preferences
 Exec=xfce4-terminal --preferences
+''',
+'''
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Defold
+Comment=defold game engine
+Exec=/opt/Defold/Defold
+Icon=/opt/Defold/logo_blue.png
+Path=/root/Desktop
+Terminal=false
+StartupNotify=true
 ''']
 
 
